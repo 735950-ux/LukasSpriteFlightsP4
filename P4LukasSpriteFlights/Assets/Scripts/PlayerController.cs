@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerController : MonoBehaviour
 {
+
+    public GameObject explosionEffect;
     
     private float score = 0f;
     public float scoreMultiplier = 10f;         // Multiplier for the score based on elapsed time
@@ -21,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
     public UIDocument uiDocument;       // Reference to the UI Document
     private Label scoreText;
+    private Button restartButton;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +32,9 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         scoreText = uiDocument.rootVisualElement.Q<Label>("ScoreLabel");                     // Get the Label element from the UI Document
+        restartButton = uiDocument.rootVisualElement.Q<Button>("RestartButton");               // Get the Button element from the UI Document
+        restartButton.style.display = DisplayStyle.None; // Hide the restart button initially
+        restartButton.clicked += ReloadScene; // Add a listener to the restart button to reload the scene when clicked
     }
 
     // Update is called once per frame
@@ -68,13 +75,19 @@ public class PlayerController : MonoBehaviour
                     {
                         shipThruster.SetActive(false);
                     }
-
                 
-
     }
     
-    public void OnCollisionEnter2D(Collision2D collision) // This function is called when the player collides with another object
+     public void OnCollisionEnter2D(Collision2D collision) // This function is called when the player collides with another object
+        {
+            Instantiate(explosionEffect, transform.position, transform.rotation);
+            restartButton.style.display = DisplayStyle.Flex; 
+            Destroy(gameObject);
+        } 
+
+    void ReloadScene()
     {
-        Destroy(gameObject);
-    } 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene)
+    }
+
 }

@@ -8,6 +8,7 @@ public class Obstacle : MonoBehaviour
     public float maxSpeed = 400f;
     public float maxSpinSpeed = 10f;
     public Rigidbody2D rb;
+    public GameObject bounceEffectPrefab; // Reference to the bounce effect prefab
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,5 +30,10 @@ public class Obstacle : MonoBehaviour
     void Update()
     {
 
+    }
+    void OncollosionEnter2D(Collision2D collision)
+    {
+      Vector2 contactPoint = collision.GetContact(0).point; // Get the contact point of the collision
+        GameObject bounceEffect = Instantiate(bounceEffectPrefab, contactPoint, Quaternion.identity); // Instantiate the bounce effect at the contact point
     }
 }

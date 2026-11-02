@@ -732,6 +732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.14
@@ -834,6 +838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.36
@@ -891,6 +899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.41
@@ -948,6 +960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.55
@@ -1020,6 +1036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.07
@@ -1220,6 +1240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.66
@@ -1277,6 +1301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.76
@@ -1389,6 +1417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.72
@@ -1456,6 +1488,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 4019701041168849407, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5169784986349477745, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
+      propertyPath: bounceEffectPrefab
+      value: 
+      objectReference: {fileID: 5151350439433589538, guid: a9810c7b20dc9c34388ad5d5f07e7b9e, type: 3}
     - target: {fileID: 5464642992683925234, guid: 554009fac1504a54c8a58ee0fd1efd91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.78
@@ -1514,13 +1554,25 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: maxSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: uiDocument
       value: 
       objectReference: {fileID: 1683291483}
     - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: thrustForce
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: shipThruster
       value: 
       objectReference: {fileID: 1326974516}
+    - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 1689191352783338810, guid: ca98b427973edf443943fb865579278b, type: 3}
     - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: SpaceShipSpriteFlightsV2Booster
       value: 
