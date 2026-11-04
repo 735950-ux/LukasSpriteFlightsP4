@@ -31,9 +31,12 @@ public class Obstacle : MonoBehaviour
     {
 
     }
-    void OncollosionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-      Vector2 contactPoint = collision.GetContact(0).point; // Get the contact point of the collision
-        GameObject bounceEffect = Instantiate(bounceEffectPrefab, contactPoint, Quaternion.identity); // Instantiate the bounce effect at the contact point
+        Vector2 contactPoint = collision.GetContact(0).point;
+        GameObject bounceEffect = Instantiate(bounceEffectPrefab, contactPoint, Quaternion.identity);
+
+        // Destroy the effect after 1 second
+        Destroy(bounceEffect, 1f);
     }
 }
