@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: cd327b6197829c6468fdc442b3d2377a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5097548697679682718
+    second: AsteroidBeltSpriteFlightsV2_0
+  - first:
+      213: -1088388140697844144
+    second: AsteroidBeltSpriteFlightsV2_1
+  - first:
+      213: 7856492947891958602
+    second: AsteroidBeltSpriteFlightsV2_2
+  - first:
+      213: -1779505602457937473
+    second: AsteroidBeltSpriteFlightsV2_3
+  - first:
+      213: -6748224397904396375
+    second: AsteroidBeltSpriteFlightsV2_4
+  - first:
+      213: 7216077523320716272
+    second: AsteroidBeltSpriteFlightsV2_5
+  - first:
+      213: -56306290300336512
+    second: AsteroidBeltSpriteFlightsV2_6
+  - first:
+      213: 3815324355987391051
+    second: AsteroidBeltSpriteFlightsV2_7
+  - first:
+      213: -4519924756937536273
+    second: AsteroidBeltSpriteFlightsV2_8
+  - first:
+      213: -8435869517060168000
+    second: AsteroidBeltSpriteFlightsV2_9
+  - first:
+      213: 5184673459894501588
+    second: AsteroidBeltSpriteFlightsV2_10
+  - first:
+      213: -8654886112548302453
+    second: AsteroidBeltSpriteFlightsV2_11
+  - first:
+      213: 5456631029293908237
+    second: AsteroidBeltSpriteFlightsV2_12
+  - first:
+      213: -7360938319925387580
+    second: AsteroidBeltSpriteFlightsV2_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 11
+        width: 90
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cd37658812eb640800000000000000
+      internalID: 5097548697679682718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05605f7a0c445e0f0800000000000000
+      internalID: -1088388140697844144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 123
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43367be5bed70d60800000000000000
+      internalID: 7856492947891958602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 55
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb95da1351ded47e0800000000000000
+      internalID: -1779505602457937473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_4
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2
+        width: 115
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afb84ae9ad7952a0800000000000000
+      internalID: -6748224397904396375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 33
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb36396648a42460800000000000000
+      internalID: 7216077523320716272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 11
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08647003ab5f73ff0800000000000000
+      internalID: -56306290300336512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_7
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 53
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42468d8941c2f430800000000000000
+      internalID: 3815324355987391051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_8
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 8
+        width: 134
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec8e3391600641c0800000000000000
+      internalID: -4519924756937536273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 41
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c625109e55cdea80800000000000000
+      internalID: -8435869517060168000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_10
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0486dca09a3f740800000000000000
+      internalID: 5184673459894501588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81d81aafeaa3e780800000000000000
+      internalID: -8654886112548302453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01007bb209d9bb40800000000000000
+      internalID: 5456631029293908237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroidBeltSpriteFlightsV2_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce59431991b8d990800000000000000
+      internalID: -7360938319925387580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AsteroidBeltSpriteFlightsV2_0: 5097548697679682718
+      AsteroidBeltSpriteFlightsV2_1: -1088388140697844144
+      AsteroidBeltSpriteFlightsV2_10: 5184673459894501588
+      AsteroidBeltSpriteFlightsV2_11: -8654886112548302453
+      AsteroidBeltSpriteFlightsV2_12: 5456631029293908237
+      AsteroidBeltSpriteFlightsV2_13: -7360938319925387580
+      AsteroidBeltSpriteFlightsV2_2: 7856492947891958602
+      AsteroidBeltSpriteFlightsV2_3: -1779505602457937473
+      AsteroidBeltSpriteFlightsV2_4: -6748224397904396375
+      AsteroidBeltSpriteFlightsV2_5: 7216077523320716272
+      AsteroidBeltSpriteFlightsV2_6: -56306290300336512
+      AsteroidBeltSpriteFlightsV2_7: 3815324355987391051
+      AsteroidBeltSpriteFlightsV2_8: -4519924756937536273
+      AsteroidBeltSpriteFlightsV2_9: -8435869517060168000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
