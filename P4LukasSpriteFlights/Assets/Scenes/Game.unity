@@ -2035,6 +2035,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 494986578945222134, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 494986578945222134, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929022054350009636, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: maxSpeed
       value: 8
@@ -2047,6 +2059,10 @@ PrefabInstance:
       propertyPath: thrustForce
       value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: borderParent
+      value: 
+      objectReference: {fileID: 2058366654}
     - target: {fileID: 2205637171086914878, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: shipThruster
       value: 
@@ -2063,13 +2079,17 @@ PrefabInstance:
       propertyPath: SpaceShipSpriteFlightsV2Booster_0
       value: 
       objectReference: {fileID: 1326974516}
+    - target: {fileID: 5050206917633063659, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6741048748206148125, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1
+      value: 0.098547995
       objectReference: {fileID: 0}
     - target: {fileID: 6741048748206148125, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3
+      value: -4.655754
       objectReference: {fileID: 0}
     - target: {fileID: 6741048748206148125, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2107,9 +2127,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpaceShipSpriteFlightsV2Empty
       objectReference: {fileID: 0}
+    - target: {fileID: 7413783240576101988, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9025916848620958557, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: m_Name
       value: SpaceShipSpriteFlightsV2Booster
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025916848620958557, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9025916848620958557, guid: 1f9309bec3f582c4c907654153d807f0, type: 3}
       propertyPath: m_IsActive
