@@ -34,14 +34,31 @@ public class PlayerController : MonoBehaviour
     {                                               // Get the Rigidbody2D component attached to the player
         rb = GetComponent<Rigidbody2D>();
 
-        scoreText = uiDocument.rootVisualElement.Q<Label>("ScoreLabel");                     // Get the Label element from the UI Document
-        highScoreText = uiDocument.rootVisualElement.Q<Label>("HighScoreLabel");            // Get the high score label from the UI Document
-        highScore = PlayerPrefs.GetInt("HighScore", 0);                                     // Load the high score from PlayerPrefs
-        highScoreText.text = "High Score: " + highScore;                                 // Update the high score label with the loaded value
-        highScoreText.style.display = DisplayStyle.None; // Show the high score label
-        restartButton = uiDocument.rootVisualElement.Q<Button>("RestartButton");               // Get the Button element from the UI Document
-        restartButton.style.display = DisplayStyle.None; // Hide the restart button initially
-        restartButton.clicked += ReloadScene; // Add a listener to the restart button to reload the scene when clicked
+        scoreText = uiDocument.rootVisualElement.Q<Label>("ScoreLabel");     
+        // Get the Label element from the UI Document
+
+
+
+        highScoreText = uiDocument.rootVisualElement.Q<Label>("HighScoreLabel");   
+        // Get the high score label from the UI Document
+
+        highScore = PlayerPrefs.GetInt("HighScore", 0);    
+        // Load the high score from PlayerPrefs
+
+        highScoreText.text = "High Score: " + highScore;   
+        // Update the high score label with the loaded value
+
+        highScoreText.style.display = DisplayStyle.None;    
+        // Show the high score label
+
+
+
+        restartButton = uiDocument.rootVisualElement.Q<Button>("RestartButton");  
+        // Get the Button element from the UI Document
+        restartButton.style.display = DisplayStyle.None;    
+        // Hide the restart button initially
+        restartButton.clicked += ReloadScene;       
+        // Add a listener to the restart button to reload the scene when clicked
     }
 
     // Update is called once per frame
@@ -70,9 +87,9 @@ public class PlayerController : MonoBehaviour
 
                                                                      // Rotate the player to face the mouse position
                         transform.up = direction;
-                        rb.AddForce(direction * thrustForce);
+                        rb.AddForce(direction * thrustForce); // Apply force to the player in the direction of the mouse position
 
-                        if (rb.linearVelocity.magnitude > maxSpeed)
+            if (rb.linearVelocity.magnitude > maxSpeed)
                         {                                                       // Limit the player's speed to maxSpeed
                             rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
                         }
@@ -95,10 +112,15 @@ public class PlayerController : MonoBehaviour
         {
             PlayerPrefs.Save(); // Save the PlayerPrefs changes
             highScoreText.style.display = DisplayStyle.Flex; // Show the high score label
-            Instantiate(explosionEffect, transform.position, transform.rotation);
-            restartButton.style.display = DisplayStyle.Flex; 
-            Destroy(gameObject);
-            borderParent.SetActive(false); // Deactivate the border parent object to hide the borders
+
+
+            Instantiate(explosionEffect, transform.position, transform.rotation); // Instantiate the explosion effect at the player's position and rotation
+
+        restartButton.style.display = DisplayStyle.Flex; // Show the restart button
+
+        Destroy(gameObject); // Destroy the player object
+
+        borderParent.SetActive(false); // Deactivate the border parent object to hide the borders
     }
 
     void ReloadScene()
