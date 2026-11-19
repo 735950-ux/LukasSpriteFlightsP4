@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
     private int highScore = 0; // Variable to store the high score
 
 
-    public float thrustForce = 1f;
-    public float maxSpeed = 5f;
+    public float thrustForce = 3.5f;
+    public float maxSpeed = 8f;
 
 
     public GameObject shipThruster;
